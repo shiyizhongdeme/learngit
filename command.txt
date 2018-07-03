@@ -4,3 +4,8 @@ rm -rf		删除文件或文件夹
 cd			改变当前用户的目录
 mkdir		创建文件夹
 git init	创建版本库（告诉git在哪里安家）
+git config --global user.name "Your Name"		创建用户名
+git config --global user.email "email@example.com"		
+git add File1name file2name 把要添加的文件放到台面上
+git commit -m "修改提示信息"  把添加或改变的文件正式放入仓库
+git status 查看状态
