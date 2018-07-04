@@ -15,3 +15,9 @@ git reset --hard versionName(通过git看到的16进制版本号，一般前6位
 cat 文件名	显示文件内容
 git reset --hard HEAD~x	指向哪个版本。就回到哪个版本（工作区的版本就是谁）
 git reflog	展示穿梭的过程（用来后悔）
+touch 		创建文件夹
+vi			进入文件编辑模式(一般模式--dd删除光标所在行,--x删除单个字符、命令模式--wq&x保存退出、插入模式--按键"i")
+git 分区 工作区,暂存区,支线库;commit的内容只是暂存区的内容，如果工作区没有add，那么工作区的改变就不会 commit
+当维护多个不重名的文件时,git 的这些所有命令多可以指定文件名  (git diff HEAD -- 文件名  只比较版本库中的文件和工作区的文件的区别)
+git checkout --文件名	还原仓库中的HEAD(慎用)
+git reset HEAD --文件名		放弃暂存区的内容，同事把工作区的内容还原到HEAD状态
