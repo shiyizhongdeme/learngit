@@ -12,3 +12,6 @@ git status 查看当前版本是否和仓库版本一致
 git diff	显示哪些地方不一样
 git log		查看用户显示修改的信息(git log --pretty-oneline :美化git log 的信息)
 git reset --hard versionName(通过git看到的16进制版本号，一般前6位即可)回退到某个时间的版本
+cat 文件名	显示文件内容
+git reset --hard HEAD~x	指向哪个版本。就回到哪个版本（工作区的版本就是谁）
+git reflog	展示穿梭的过程（用来后悔）
